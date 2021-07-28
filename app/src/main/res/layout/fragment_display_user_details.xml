@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_user_profile_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:focusableInTouchMode="false"
+        android:gravity="center_horizontal"
+        android:text="@string/user_profile_details"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+
+        android:text="@string/back_button_txt" />
+
+    <TextView
+        android:id="@+id/first_name"
+        android:layout_width="394dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/tv_user_profile_details"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/purple_200"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:inputType="textMultiLine"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/last_name"
+        android:layout_width="392dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/first_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/purple_200"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:inputType="textMultiLine"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_age"
+        android:layout_width="394dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/last_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/purple_200"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:inputType="textMultiLine"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

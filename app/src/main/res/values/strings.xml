@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AliveCorAssignment</string>
+    <string name="profile_details_title_txt">Please enter profile details</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="enter_date_of_birth">Enter your date of birth</string>
+    <string name="next_button">Next</string>
+    <string name="user_profile_details">User Profile Details</string>
+    <string name="back_button_txt">Back</string>
+</resources>
